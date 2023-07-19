@@ -1,0 +1,51 @@
+header{
+    display: flex;
+    justify-content: space-between;
+}
+
+ul{
+    display: none;
+}
+
+section{
+    display: grid;
+    grid-template-columns: 1fr;
+}
+
+ button{
+    display: block;
+    background-color: #2A8BED;
+    color: white;
+ }
+.articles{
+    display: grid;
+
+}
+.publications{
+    display: grid;
+}
+article{
+    display: flex;
+    flex-direction: column;
+    width: 95%;
+    padding: 2%;
+    background-color: lightgray;
+}
+
+ article img{
+    width: 100%;
+ }
+
+ .publication{
+    background-color: #2A8BED;
+ }
+
+@media only screen and (min-width: 768px){
+    ul{
+        display: block;
+    }
+    
+    section{
+        grid-template-columns: 1fr 1fr;
+    }
+} 
