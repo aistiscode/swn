@@ -8,14 +8,16 @@ ul{
     display: none;
 }
 
- button{
+button{
     display: block;
     width: 100%;
     padding: 5%;
     text-align: left;
     background-color: #2A8BED;
     color: white;
- }
+}
+
+
 
 .publications{
     display: grid;
@@ -67,8 +69,9 @@ article{
         display: grid;
         grid-template-columns: 1fr 1fr;
     }
-    button{
+    
+    .load-more-btn{
         width: 20%;
-        
+        margin: auto;
     }
 } 
