@@ -39,9 +39,14 @@ article{
     width: 100%;
     height: 30vh;
  }
-
+.publications-container{
+    display: flex;
+    gap: 1.25vw;
+}
  .publication{
     background-color: #2A8BED;
+    height: 45vw;
+    width: 45vw;
  }
 
 @media only screen and (min-width: 768px){
@@ -66,8 +71,7 @@ article{
         grid-template-columns: 1fr 1fr;
     }
     .publications-container{
-        display: grid;
-        grid-template-columns: 1fr 1fr;
+        
     }
     
     .load-more-btn{
