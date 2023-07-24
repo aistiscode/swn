@@ -38,7 +38,9 @@ a:hover{
     padding-top: 3px;
     margin-top: 2px;
 }
-
+.desktop-only{
+    display: none;
+}
 h1{
     font-size: 4rem;
 }
@@ -136,5 +138,8 @@ article{
     .load-more-btn{
         width: 15%;
         margin: auto;
+    }
+    .desktop-only{
+        display: block;
     }
 } 
