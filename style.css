@@ -37,7 +37,18 @@ ul{
 h1{
     font-size: 4rem;
 }
-
+.heading-info{
+    display: flex;
+    margin-top: 10vh;
+    gap: 10vw;
+}
+.heading-info .heading-selections{
+    color: grey;
+    font-style: italic;
+}
+.heading-info h1{
+    margin: 0;
+}
 button{
     display: block;
     width: 100%;
