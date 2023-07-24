@@ -16,7 +16,12 @@ body{
 ul{
     display: none;
 }
-
+a{
+    all:unset;
+}
+a:hover{
+    cursor: pointer;
+}
 .header-options{
     display: flex;
     gap: 2vw;
@@ -58,13 +63,17 @@ button{
     color: white;
 }
 
+.articles-container{
+    display: grid;
+    grid-template-columns: 1fr;
+    margin-bottom: 1.25rem;
+}
+
 .article-date{
     color: grey;
 }
 
-.publications{
-    display: grid;
-}
+
 article{
     display: flex;
     flex-direction: column;
